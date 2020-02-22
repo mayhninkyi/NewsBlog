@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+        <ImageView
+            android:id="@+id/n_image"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/img"/>
+        <TextView
+            android:id="@+id/n_title"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Hello welcome news plog"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"
+            android:alpha="0.5"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/n_author"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Author"
+        android:gravity="fill"
+        android:textSize="16sp"
+        android:drawableLeft="@drawable/ic_author"
+        android:drawableTint="@color/colorAccent"/>
+    <TextView
+        android:id="@+id/n_date"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Date"
+        android:gravity="fill"
+        android:textSize="16sp"
+        android:drawableLeft="@drawable/ic_date"
+        android:drawableTint="@color/colorAccent"/>
+</LinearLayout>
